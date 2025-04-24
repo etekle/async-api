@@ -21,7 +21,7 @@ paths:
       operationId: PUT Test
       description: API kit put test
       responses:
-        "200":
+        "201":
           description: This is put test
 
     delete:
