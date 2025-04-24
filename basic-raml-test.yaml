@@ -11,34 +11,22 @@ paths:
       responses:
         "200":
           description: This is get test
-      servers:
-        -
-          url: placeholder.example.com
     post:
       operationId: POST Test
       description: API kit post test
       responses:
-        "200":
-          description: ""
-      servers:
-        -
-          url: placeholder.example.com
+        "201":
+          description: This is post test
     put:
       operationId: PUT Test
       description: API kit put test
       responses:
         "200":
-          description: ""
-      servers:
-        -
-          url: placeholder.example.com
+          description: This is put test
 
     delete:
       operationId: DELETE Test
       description: API kit delete test
       responses:
         "200":
-          description: ""
-      servers:
-        -
-          url: placeholder.example.com
+          description: This is delete test
