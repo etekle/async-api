@@ -10,7 +10,7 @@ paths:
       description: API kit get test
       responses:
         "200":
-          description: ""
+          description: This is get test
       servers:
         -
           url: placeholder.example.com
@@ -32,6 +32,7 @@ paths:
       servers:
         -
           url: placeholder.example.com
+
     delete:
       operationId: DELETE Test
       description: API kit delete test
