@@ -1,4 +1,6 @@
 {
   "dependencies": [],
-  "name": "github-demo"
+  "name": "github-demo",
+  "main": "basic-raml-test.yaml",
+  "classifier": "oas"
 }
