@@ -2,5 +2,6 @@
   "dependencies": [],
   "name": "github-demo",
   "main": "basic-raml-test.yaml",
-  "classifier": "oas"
+  "classifier": "oas",
+  "groupId": "92a7a805-095e-49f9-9b19-f3f8ff140a67"
 }
