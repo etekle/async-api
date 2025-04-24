@@ -1,0 +1,43 @@
+openapi: 3.0.0
+info:
+  title: Test
+  description: API kit router Test
+  version: "1"
+paths:
+  /test:
+    get:
+      operationId: GET Test
+      description: API kit get test
+      responses:
+        "200":
+          description: ""
+      servers:
+        -
+          url: placeholder.example.com
+    post:
+      operationId: POST Test
+      description: API kit post test
+      responses:
+        "200":
+          description: ""
+      servers:
+        -
+          url: placeholder.example.com
+    put:
+      operationId: PUT Test
+      description: API kit put test
+      responses:
+        "200":
+          description: ""
+      servers:
+        -
+          url: placeholder.example.com
+    delete:
+      operationId: DELETE Test
+      description: API kit delete test
+      responses:
+        "200":
+          description: ""
+      servers:
+        -
+          url: placeholder.example.com
